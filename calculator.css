@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Fira+Mono:wght@400;500;700&family=Kalam:wght@300;400;700&family=Playpen+Sans:wght@100..800&family=Silkscreen:wght@400;700&display=swap');
+
+.calculator {
+     padding: 10px;
+     border-radius: 1em;
+     height: 480px;
+     width: 400px;
+     margin: auto;
+     background-color: rgb(36, 3, 55);
+     box-shadow: rgb(255, 255, 255) 0, 10px , 20px rgb(255, 255, 255) 0 ,6px ,6px;
+}
+
+.display-box{
+     font-family: "Playpen Sans", cursive;
+     background-color: rgb(78, 3, 176);
+     border: solid rgb(193, 69, 69) 1;
+     color: rgb(255, 255, 255);
+     border-radius: 5px;
+     width: 96%;
+     height: 65%;
+}
+#btn{
+     background-color: rgb(222, 24, 206);
+}
+
+input[type = button]{
+    font-family: "Playpen Sans", cursive;
+    background-color: #8c16a3c6;
+    color: rgb(255, 255, 255);
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+}
+input:active[type = button]{
+     background-color: rgba(14, 62, 218, 0.726);
+     box-shadow: inset 0px ,0px, 5px rgb(221, 46, 46);
+}
+
+input:hover[type = button]{
+     background-color: rgb(153, 64, 236);
+}
+
+
+
+
+
